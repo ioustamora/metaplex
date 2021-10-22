@@ -1,0 +1,62 @@
+{
+    "name": "Marnotaur 3",
+    "symbol": "",
+    "description": "MÆRⴼTΩR is an NFT collection developed by the Marnotaur liquidity protocol. The collection is issued in squadrons of 555 NFTs. The initial release includes 5 squadrons - 2,775 Marnotaur NFTs in total.",
+    "seller_fee_basis_points": 250,
+    "image": "3.png",
+    "animation_url": "",
+    "external_url": "",
+    "attributes": [
+      {
+        "trait_type": "REAR",
+        "value": "13"
+      },
+      {
+        "trait_type": "GLASSES",
+        "value": "6"
+     },
+     {
+        "trait_type": "PADS",
+        "value": "1"
+      },
+      {
+          "trait_type": "HORNS",
+          "value": "9"
+      },
+      {
+          "trait_type": "BRACELET",
+          "value": "5"
+      },
+      {
+          "trait_type": "SKIN_A",
+          "value": "16"
+      },
+      {
+          "trait_type": "BODY",
+          "value": "6"
+      },
+      {
+          "trait_type": "OBJECT",
+          "value": "9"
+      }
+    ],
+    "collection": {
+       "name": "Marnotawr NFT",
+       "family": "Platinum"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "3.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "7fnoyLRUQikDAYW7p8acU5hmHvBhrv2YD4yMPzwKonha",
+          "share": 100
+        }
+      ]
+    }
+  }

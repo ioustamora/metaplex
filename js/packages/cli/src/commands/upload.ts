@@ -82,6 +82,9 @@ export async function upload(
     let link = cacheContent?.items?.[index]?.link;
     if (!link || !cacheContent.program.uuid) {
       const manifestPath = image.replace(EXTENSION_PNG, '.json');
+      log.warn(`Iteration: ${i} from total ${SIZE} iterations`);
+      log.warn(`Image name: ${imageName}`);
+      log.warn(`Manifest path: ${manifestPath}`);
       const manifestContent = fs
         .readFileSync(manifestPath)
         .toString()
