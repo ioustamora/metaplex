@@ -207,15 +207,21 @@ metaplex sign_candy_machine_metadata -k ~/.config/solana/id.json --cndy CANDY_MA
 ts-node cli sign_candy_machine_metadata -k ~/.config/solana/id.json --cndy CANDY_MACHINE_ADDRESS_HERE
 ```
 
-
+```
 ts-node src/candy-machine-cli.ts upload ./assets -e devnet -k /Users/user/.config/solana/id.json -s ipfs --ipfs-infura-project-id <...> --ipfs-infura-secret <...>
-
+```
+```
 ts-node src/candy-machine-cli.ts verify -e devnet -k /Users/user/.config/solana/id.json 
-
+```
+```
 ts-node src/candy-machine-cli.ts create_candy_machine -e devnet -k /Users/user/.config/solana/id.json -p 0.1
-
+```
+```
 ts-node src/candy-machine-cli.js update_candy_machine -e devnet -k /Users/user/.config/solana/id.json -p 0.2 -d "22 Sept 2021 01:00:00 GMT"
-
+```
+```
 ts-node src/candy-machine-cli.ts mint_one_token -e devnet -k /Users/user/.config/solana/id.json 
-
+```
+```
 spl-token accounts
+```
