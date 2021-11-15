@@ -29,6 +29,8 @@ incremented for features.
 - Fixes open sale button state issue
 - Fix Undefined value in Current Sale UI
 - Fix #830 - secondary sale flagging
+- Fixes AUCTION_SIZE const
+- Fixes #930
 
 ### Breaking
 
